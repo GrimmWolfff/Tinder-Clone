@@ -14,3 +14,130 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.SwipeButtons {
+  position: fixed;
+  bottom: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.chatDetails {
+  flex: 1;
+}
+.chatDetails > p {
+  color: gray;
+}
+
+.chatImg {
+  margin-right: 20px;
+}
+.lastSeen {
+  color: lightgray;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.chatScreen_msg {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.chatScreen_text {
+  margin-left: 10px;
+  background: lightgray;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.time {
+  text-align: center;
+  padding: 15px;
+  color: gray;
+}
+.chatScreen_textUser {
+  margin-left: auto;
+  background-color: #29b3cd;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+.userForm {
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+.text_input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 2em;
+}
+.userForm Button {
+  font-weight: bolder;
+  color: teal;
+  margin: 10px;
+}
+
+.btnReplay, .btnClose, .btnStarRate, .btnFavorite, .btnFlashOn {
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+  padding: 3vw !important;
+}
+.btnReplay { color: #f5b748 !important; }
+.btnClose { color: #ec5e6f !important; }
+.btnStarRate { color: #62b4f9 !important; }
+.btnFavorite { color: #76e2b3 !important; }
+.btnFlashOn { color: #915dd1 !important; }
+
+.card {
+  height: 50vh;
+  position: relative;
+  width: 600px;
+  padding: 2em;
+  max-width: 85vw;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 9px 23px 0px rgba(0, 0, 0, 0.3);
+}
+.swipe { position: absolute; }
+
+.card h3 {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 2.5em;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.01);
+}
+.inline-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+PUT http://localhost:3000/api/users/627826c2a3774ab53769020b
+Content-Type: application/json
+
+{
+    "username": "ilia"
+}
